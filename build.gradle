@@ -1,0 +1,10 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version "${kotlin_version}"
+    id 'scala'
+}
+
+repositories {
+    maven { url='https://maven.aliyun.com/repository/central' }
+
+    mavenCentral()
+}
