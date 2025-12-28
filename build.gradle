@@ -8,3 +8,7 @@ repositories {
 
     mavenCentral()
 }
+
+dependencies {
+    implementation "org.scala-lang:scala3-library_3:${scala_version}"
+}
