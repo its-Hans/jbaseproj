@@ -3,12 +3,6 @@ plugins {
     id 'scala'
 }
 
-repositories {
-    maven { url='https://maven.aliyun.com/repository/central' }
-
-    mavenCentral()
-}
-
 dependencies {
     implementation "org.scala-lang:scala3-library_3:${scala_version}"
 }
