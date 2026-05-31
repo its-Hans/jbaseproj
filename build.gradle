@@ -1,8 +1,7 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version "${kotlin_version}"
     id 'scala'
 }
 
-dependencies {
-    implementation "org.scala-lang:scala3-library_3:${scala_version}"
+scala {
+    scalaVersion=libs.versions.scala
 }
