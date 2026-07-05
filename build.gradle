@@ -1,0 +1,7 @@
+plugins {
+    id 'scala'
+}
+
+scala {
+    scalaVersion=libs.versions.scala
+}
